@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.Header {
+  background-color: lightsteelblue;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  height: 10vh;
+  width: 100vw;
+}
+
+.moviesContainer {
+  border: 1px solid black;
+  background-color: lightblue;
+  width: calc(100% / 3);
+  height: 100%;
+  box-sizing: border-box;
+  /* width: 60%; */
+  /* display: flex;
+  justify-content: center; */
+}
+
+.starshipsContainer {
+  border: 1px solid black;
+  background-color: lightgray;
+  width: calc(100% / 3);
+  height: 100%;
+  box-sizing: border-box;
+
+}
+
+.pilotsContainer {
+  border: 1px solid black;
+  background-color: rgb(170, 222, 170);
+  width: calc(100% / 3);
+  height: 100%;
+  box-sizing: border-box;
+
+}
+
+.movieDescription {
+  border: 1px solid black;
+  padding: 2% 2% 2% 2%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgb(153, 203, 220);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.starshipInfo {
+  background-color: linen;
+  border: 1px solid black;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.pilotInfo {
+  background-color: rgb(195, 228, 195);
+  border: 1px solid black;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.favoritePilots {
+  background-color: rgb(195, 228, 195);
+  border: 1px solid black;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
